@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_default_sync_blocks",
+  "info": {
+    "displayName": "Sync Block",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "sync_block": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sync-block.sync-block"
+    }
+  }
+}
